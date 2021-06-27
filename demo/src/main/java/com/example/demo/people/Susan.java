@@ -1,8 +1,11 @@
 package com.example.demo.people;
 
-import com.example.demo.action.Sing;
+import com.example.demo.action.AbstractSing;
 
-public class Susan extends Sing {
+/**
+ * @author yxm
+ */
+public class Susan extends AbstractSing {
     @Override
     public void theMusic(){
         System.out.println("this is Susan's music ");
