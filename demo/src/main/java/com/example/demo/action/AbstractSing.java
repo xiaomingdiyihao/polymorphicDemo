@@ -11,4 +11,11 @@ public abstract class AbstractSing {
      * music
      */
     public abstract void theMusic();
+
+    /**
+     * 非重写
+     */
+    public void theCd() {
+        System.out.println("for you past a cd. ");
+    }
 }

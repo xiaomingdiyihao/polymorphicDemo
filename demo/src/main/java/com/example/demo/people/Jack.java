@@ -10,4 +10,8 @@ public class Jack extends AbstractSing {
     public void theMusic(){
         System.out.println("this is Jack's music");
     }
+    @Override
+    public void theCd(){
+        System.out.println("For Jack past a cd.");
+    }
 }
